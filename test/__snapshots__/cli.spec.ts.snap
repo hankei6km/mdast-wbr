@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`cli() should print markdown word-breaked(frontmatter) 1`] = `
+"---
+abc: 1
+---
+
+# 単語<wbr>の<wbr>区切り<wbr> **ここは強調** <wbr>続き<wbr>の<wbr>文字<wbr>列
+
+ここはパラグラフ
+"
+`;
+
+exports[`cli() should print markdown word-breaked(html) 1`] = `
+"# 単語<wbr>の<wbr>区切り<wbr> **ここは強調** <wbr>続き<wbr>の<wbr>文字<wbr>列
+
+ここはパラグラフ
+"
+`;
+
+exports[`cli() should print markdown word-breaked(str) 1`] = `
+"# 単語|の|区切り| **ここは強調** |続き|の|文字|列
+
+ここはパラグラフ
+"
+`;
