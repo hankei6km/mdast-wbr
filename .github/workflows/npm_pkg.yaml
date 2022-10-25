@@ -27,7 +27,7 @@ jobs:
           REL_NAME: ${{ github.event.release.name }}
           TAG_NAME: ${{ github.event.release.tag_name }}
 
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
       # npm に公開するように .npmrc ファイルを設定する
       - uses: actions/setup-node@v3
@@ -37,7 +37,7 @@ jobs:
 
       # https://docs.github.com/ja/free-pro-team@latest/actions/guides/caching-dependencies-to-speed-up-workflows
       - name: Cache node modules
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         env:
           cache-name: cache-node-modules
         with:
