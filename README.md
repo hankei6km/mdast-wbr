@@ -66,6 +66,9 @@ $ echo -e "# 単語の区切り **ここは強調** 続きの文字列\nここ�
 
 ```
 
+You can use `--as-str $'\u200b'` in bash to insert Zero Width Space(`U+200B`) directly into Markdown.
+However, Zero Width Space still exists in text when converted to HTML.
+
 ## License
 
 MIT License
