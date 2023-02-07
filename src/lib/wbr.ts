@@ -16,7 +16,7 @@ export function wbr(tree: Root, inOpts: WbrOptions): Root {
   const opts = normalizeWbrOptions(inOpts)
   const segmenter = new Intl.Segmenter(opts.locales, opts.segmenterOptions)
 
-  visit(tree, 'heading', (node, index, parent) => {
+  visit(tree, 'heading' as const, (node, index, parent) => {
     if (typeof index === 'number' && parent?.type === 'root') {
       node.children = wbrPhrasingContents(segmenter, opts, node.children)
       // return 'skip'
