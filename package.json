@@ -39,7 +39,7 @@
   },
   "devDependencies": {
     "@swc/core": "^1.11.21",
-    "@swc/jest": "^0.2.37",
+    "@swc/jest": "^0.2.38",
     "@types/jest": "^29.5.14",
     "@types/mdast": "^3.0.11",
     "@types/node": "^22.14.1",
