@@ -35,7 +35,7 @@
     "mdast-util-frontmatter": "^1.0.1",
     "mdast-util-to-markdown": "^1.5.0",
     "unist-util-visit": "^5.0.0",
-    "yargs": "^17.7.2"
+    "yargs": "^18.0.0"
   },
   "devDependencies": {
     "@swc/core": "^1.11.29",
