@@ -42,7 +42,7 @@
     "@swc/jest": "^0.2.39",
     "@types/jest": "^30.0.0",
     "@types/mdast": "^4.0.4",
-    "@types/node": "^24.1.0",
+    "@types/node": "^24.2.0",
     "@types/yargs": "^17.0.33",
     "jest": "^30.0.5",
     "rimraf": "^6.0.1",
