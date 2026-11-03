@@ -34,7 +34,7 @@
     "mdast-util-from-markdown": "^2.1.0",
     "mdast-util-frontmatter": "^2.0.1",
     "mdast-util-to-markdown": "^2.2.0",
-    "unist-util-visit": "^5.1.0",
+    "unist-util-visit": "^5.2.0",
     "yargs": "^18.2.0"
   },
   "devDependencies": {
